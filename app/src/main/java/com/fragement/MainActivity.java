@@ -34,12 +34,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (status){
             FirstFragment firstFragment = new FirstFragment();
             fragmentTransaction.replace(R.id.fragmentContainer,firstFragment);
+            fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
             bthFragment.setText("Load Second Fragment");
             status = false;
         }else{
             SecondFragment secondFragment = new SecondFragment();
             fragmentTransaction.replace(R.id.fragmentContainer,secondFragment);
+            fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
             bthFragment.setText("Load First Fragment");
             status = true;

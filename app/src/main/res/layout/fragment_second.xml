@@ -5,22 +5,15 @@
     tools:context="fragement.SecondFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="First Fragment"
-        android:textSize="20sp"
-        android:layout_margin="20dp"
-        android:id="@+id/btn_firstFragment"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Number"
+        android:hint="Enter Radius"
         android:layout_marginTop="100dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:id="@+id/et_radious"/>
+        android:id="@+id/et_radius"/>
 
     <Button
         android:layout_width="match_parent"
